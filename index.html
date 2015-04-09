@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<!-- made  by Josh Lee
+    I watched a tutorial and made this.
+    Then added auto updating and changed the styling.
+    May add saving and sharing later.
+    -->
+ <title>Codepad</title>
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+ <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+ <meta charset="utf-8" />
+ <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+ <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+
+ <script src="js/jquery-1.11.1.js"></script>
+ <script src="js/script.js"></script>
+
+
+
+</head>
+<body>
+<div id="container">
+<div id="titlebar">
+<div id="title">
+         Codepad
+</div>
+        
+<div id="runButton">
+         <button id="run">Run</button>
+</div>
+
+<!--
+<input type="checkbox" id="auto-update" name="auto-update">
+    <label id="au-label" for="auto-update">Auto update</label>
+
+    -->
+        
+<div id="menu">
+         <ul>
+             <li class="selector selected" name="html">HTML</li>
+             <li class="selector" name="css">CSS</li>
+             <li class="selector" name="js">JS</li>
+             <li class="selector selected" name="result" style="borderright:none">Result</li>
+         </ul>
+</div>
+        
+        
+        
+</div>
+        
+<div class="break"></div>
+        
+<div class="codecontainer" id="htmlContainer">
+         <span class="containerTitle">HTML</span>
+         <textarea class="code" id="html">
+         </textarea>
+        
+</div>
+        
+<div class="codecontainer" id="cssContainer">
+         <span class="containerTitle">CSS</span>
+         <textarea class="code" id="css">
+         </textarea>
+</div>
+        
+<div class="codecontainer" id="jsContainer">
+         <span class="containerTitle">JS</span>
+         <textarea class="code" id="js">
+         </textarea>
+</div>
+<div class="codecontainer" id="resultContainer">
+         <span class="containerTitle">Result</span>
+         <div class="resultContainer">
+         <iframe id="resultFrame"></iframe>
+         </div>
+</div>
+</div>
+</body>
+</html>

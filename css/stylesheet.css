@@ -1,0 +1,140 @@
+* {
+         font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+"Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+         margin:0;
+         padding:0;
+}
+        
+body, html {
+         height:100%;
+         width:100%;
+}
+#container {
+         height:100%;
+}
+        
+ #titlebar {
+ width:100%;
+ background-color: rgba(43, 75, 111, 0.8);
+ border-bottom:1px solid grey;
+ height:40px;
+ }
+
+ #title {
+ padding:10px 0 0 20px;
+ font-weight:bold;
+ float:left;
+ }
+
+ #menu {
+ margin:0 auto;
+ width:230px;
+ padding:5px;
+ }
+ 
+#menu ul {
+ border:1px solid grey;
+ border-radius:5px;
+ height:30px;
+ }
+
+ #menu li {
+ float:left;
+ list-style:none;
+ border-right:1px solid grey;
+ height:100%;
+ padding:5px 10px;
+ width: 25%;
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+ }
+
+ #menu li:hover {
+ background-color:grey;
+ cursor: pointer;
+ }
+
+ .break {
+ clear:both;
+ }
+
+ .codecontainer {
+ width:50%;
+         float:left;        
+         position:relative;
+ }
+ 
+ .code {
+ width:100%;
+ height:100%;
+ border-left: 1px solid grey;
+         -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+ padding:10px;
+ }
+
+ #cssContainer, #jsContainer {
+ display:none;
+ }
+
+ .containerTitle {
+ position:absolute;
+ right:20px;
+ top:10px;
+ background-color: snow;
+ padding:4px;
+ border:1px solid grey;
+ border-radius:4px;
+ }
+
+ .selected {
+ background-color: rgba(4, 29, 55, 0.3) !important;
+ }
+
+ .selector {
+ 	background-color: rgba(255, 255, 255, 0.2);
+ }
+ 
+ #runButton {
+ float:right;
+ margin:5px 20px 0 0;
+ }
+
+ #run {
+ font-size:130%;
+ border-radius:10px;
+ padding:0 10px;
+ }
+
+ #resultFrame {
+ width:100%;
+ height:100%;
+ border:0;
+ border-left:1px solid grey;
+ }
+
+ .resultContainer {
+ height:100%;
+        
+ }
+
+ textarea {
+ border:none;
+ resize: none;
+ font-family:monotype;
+ font-size:100%;
+ }
+
+
+ #auto-update {
+ 	float:right;
+ 	font-size: 10px;
+ 	margin: 10px 10px 0;
+ }
+
+ #au-label {
+ 	float:right;
+ 	margin: 10px 0;
+ }
